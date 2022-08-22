@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "ZexDex Exchange",
-    Svg: require("@site/static/img/Exchange.png").default,
+    Svg: require("@site/static/img/Exchange.svg").default,
     description: (
       <>
         ZexDex is a decentralized exchange. Users do not need to register and
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "ZexDex Launchpad",
-    Svg: require("@site/static/img/Launchpad.png").default,
+    Svg: require("@site/static/img/Launchpad.svg").default,
     description: (
       <>
         Participation in private sales in the best token pools. Zexdex Platform
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "ZexDex Events",
-    Svg: require("@site/static/img/Events.png").default,
+    Svg: require("@site/static/img/Events.svg").default,
     description: (
       <>
         Many crypto companies distribute free coins to their communities to
@@ -47,7 +47,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "ZexDex Audit & KYC",
-    Svg: require("@site/static/img/AuditKYC.png").default,
+    Svg: require("@site/static/img/AuditKYC.svg").default,
     description: (
       <>
         A smart contract security audit examines and comments on a project's
@@ -60,7 +60,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "ZexDex Tools",
-    Svg: require("@site/static/img/Tools.png").default,
+    Svg: require("@site/static/img/Tools.svg").default,
     description: (
       <>
         Create Token.
@@ -71,7 +71,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "ZexDex Partners",
-    Svg: require("@site/static/img/Partners.png").default,
+    Svg: require("@site/static/img/Partners.svg").default,
     description: (
       <>
         Marketing Partner.
