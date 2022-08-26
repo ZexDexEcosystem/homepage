@@ -10,13 +10,28 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
+    title: "ZexDex Audit & KYC",
+    Svg: require("@site/static/img/AuditKYC.svg").default,
+    description: (
+      <>
+        A smart contract security audit examines and comments on a project's
+        smart contract code. Typically, these contracts are written in Solidity
+        programming language and provided via GitHub. Security audits are
+        particularly valuable for Defi projects that expect to handle blockchain
+        transactions worth millions of dollars or a huge amount of players.
+      </>
+    ),
+  },
+  {
     title: "ZexDex Exchange",
     Svg: require("@site/static/img/Exchange.svg").default,
     description: (
       <>
         ZexDex is a decentralized exchange. Users do not need to register and
         can transact directly with their wallets. Unlike centralized exchanges.
-        ZexDex doesn't keep your coins while trading.
+        ZexDex doesn't keep your coins while trading. Liquidity pools enable
+        users to buy and sell crypto on decentralized exchanges and other DeFi
+        platforms without the need for centralized market makers.
       </>
     ),
   },
@@ -35,15 +50,14 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "ZexDex Audit & KYC",
-    Svg: require("@site/static/img/AuditKYC.svg").default,
+    title: "ZexDex Tools",
+    Svg: require("@site/static/img/Tools.svg").default,
     description: (
       <>
-        A smart contract security audit examines and comments on a project's
-        smart contract code. Typically, these contracts are written in Solidity
-        programming language and provided via GitHub. Security audits are
-        particularly valuable for Defi projects that expect to handle blockchain
-        transactions worth millions of dollars or a huge amount of players.
+        To enable the developer community to create applications more quickly
+        and effectively, Zexdex-tools creates developer tooling for blockchain
+        networks and protocols: Create a Zexdex Locker, a Multi-Sender, and a
+        Token.
       </>
     ),
   },
@@ -52,21 +66,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/Launchpad.svg").default,
     description: (
       <>
-        Participation in private sales in the best token pools. Zexdex Platform
-        is a Launchpad where selected projects for the development of the crypto
-        ecosystem.
-      </>
-    ),
-  },
-  {
-    title: "ZexDex Tools",
-    Svg: require("@site/static/img/Tools.svg").default,
-    description: (
-      <>
-        Zexdex-tools build developer tooling for blockchain networks and
-        protocols aimed at empowering the developer community to build and ship
-        applications faster and better: Create Token, Multi-Sender and Zexdex
-        Locker.
+        Participation in the top token pools' private sales. Selected projects
+        for the growth of the cryptocurrency ecosystem are launched on the
+        Zexdex Platform.
       </>
     ),
   },
@@ -91,6 +93,8 @@ function Feature({ title, Svg, description }: FeatureItem) {
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
+      </div>
+      <div className="text--justify padding-horiz--md">
         <p>{description}</p>
       </div>
     </div>

@@ -19,13 +19,13 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Learn more - 5min ⏱️
+            Docs ⏱️
           </Link>&nbsp;&nbsp;&nbsp;&nbsp;
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Launch App &#8599;
+            D-App &#8599;
           </Link>
         </div>
       </div>
