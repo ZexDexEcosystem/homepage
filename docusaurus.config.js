@@ -75,6 +75,21 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://twitter.com/ZexDexEcosystem/',
+            label: 'Twitter',
+            position: 'right',
+          },
+          {
+            href: 'https://t.me/ZexDexEcosystem/',
+            label: 'Telegram',
+            position: 'right',
+          },
+          {
+            href: 'https://facebook.com/ZexDexEcosystem/',
+            label: 'Facebook',
+            position: 'right',
+          },
         ],
       },
       footer: {

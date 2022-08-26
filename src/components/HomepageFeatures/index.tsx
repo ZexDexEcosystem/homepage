@@ -21,17 +21,6 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "ZexDex Launchpad",
-    Svg: require("@site/static/img/Launchpad.svg").default,
-    description: (
-      <>
-        Participation in private sales in the best token pools. Zexdex Platform
-        is a Launchpad where selected projects for the development of the crypto
-        ecosystem.
-      </>
-    ),
-  },
-  {
     title: "ZexDex Events",
     Svg: require("@site/static/img/Events.svg").default,
     description: (
@@ -59,13 +48,25 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
+    title: "ZexDex Launchpad",
+    Svg: require("@site/static/img/Launchpad.svg").default,
+    description: (
+      <>
+        Participation in private sales in the best token pools. Zexdex Platform
+        is a Launchpad where selected projects for the development of the crypto
+        ecosystem.
+      </>
+    ),
+  },
+  {
     title: "ZexDex Tools",
     Svg: require("@site/static/img/Tools.svg").default,
     description: (
       <>
-        Create Token.
-        Multi-Sender.
-        ZexDexLocker.
+        Zexdex-tools build developer tooling for blockchain networks and
+        protocols aimed at empowering the developer community to build and ship
+        applications faster and better: Create Token, Multi-Sender and Zexdex
+        Locker.
       </>
     ),
   },
@@ -74,11 +75,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/Partners.svg").default,
     description: (
       <>
-        Marketing Partner.
-        Audit & KYC Partner.
-        Developer Partner.
-        Dex Partner.
-        Cex Partner.
+        We will help you to connect with the best and most chosen Partners in
+        the cryptocurrency world Marketing Partners, Audit & KYC Partners,
+        Developer Partners, Dex partners, Cex partners.
       </>
     ),
   },
