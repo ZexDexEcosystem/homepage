@@ -4,7 +4,18 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This project contains the main features of the ZexDexEcosystem application.
+
+Zexdex is a crypto services platform, a decentralized exchange, and a decentralized launchpad that allows users to launch their tokens and generate their token sales. Users do not need to register and can transact directly with their wallets. Unlike centralized exchanges. Zexdex doesn't keep your coins while trading.
+We provide 6 main services: Zexdex-Exchange, Zexdex-Launchpad Zexdex-Events, Zexdex-Audit&KYC, Zexdex-Tools, and Zexdex-Partners.
+
+Social Profiles:
+
+Telegram: https://t.me/ZexDexEcosystem/
+
+Website: https://www.zexdex.app/
+
+Twitter: https://twitter.com/ZexDexEcosystem/
 
 ## Getting Started
 
